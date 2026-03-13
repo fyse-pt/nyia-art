@@ -8,7 +8,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { 
   ShoppingCart, 
   X, 
-  Plus, 
+  Plus,
   Minus, 
   Instagram, 
   Mail, 
@@ -250,7 +250,7 @@ export default function App() {
             <div className="absolute -inset-4 bg-gradient-to-tr from-nyia-cyan via-nyia-magenta to-nyia-orange opacity-20 blur-2xl group-hover:opacity-40 transition-opacity duration-700"></div>
             <div className="relative aspect-[4/5] overflow-hidden rounded-3xl nyia-glow">
               <img 
-                src="/src/img/nyiaperfil.jpeg" 
+                src="./src/img/nyiaperfil.jpeg" 
                 alt="Nyia Artista" 
                 className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-105"
               />
@@ -405,18 +405,18 @@ export default function App() {
             >
               <div className="space-y-6">
                 <div className="rounded-3xl overflow-hidden nyia-glow">
-                  <img src="/src/img/7.png" alt="Ateliê 1" className="w-full aspect-[3/4] object-cover hover:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" />
+                  <img src="./src/img/7.png" alt="Ateliê 1" className="w-full aspect-[3/4] object-cover hover:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" />
                 </div>
                 <div className="rounded-3xl overflow-hidden nyia-glow">
-                  <img src="/src/img/8.png" alt="Ateliê 2" className="w-full aspect-square object-cover hover:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" />
+                  <img src="./src/img/8.png" alt="Ateliê 2" className="w-full aspect-square object-cover hover:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" />
                 </div>
               </div>
               <div className="space-y-6 pt-12">
                 <div className="rounded-3xl overflow-hidden nyia-glow">
-                  <img src="/src/img/9.png" alt="Ateliê 3" className="w-full aspect-square object-cover hover:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" />
+                  <img src="./src/img/9.png" alt="Ateliê 3" className="w-full aspect-square object-cover hover:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" />
                 </div>
                 <div className="rounded-3xl overflow-hidden nyia-glow">
-                  <img src="/src/img/10.png" alt="Ateliê 4" className="w-full aspect-[3/4] object-cover hover:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" />
+                  <img src="./src/img/10.png" alt="Ateliê 4" className="w-full aspect-[3/4] object-cover hover:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" />
                 </div>
               </div>
             </motion.div>
