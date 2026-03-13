@@ -1,4 +1,10 @@
 import { Product } from "./types";
+import img1 from "./img/1.png";
+import img2 from "./img/2.png";
+import img3 from "./img/3.png";
+import img4 from "./img/4.png";
+import img5 from "./img/5.png";
+import img6 from "./img/6.png";
 
 export const ARTIST_BIO = {
   name: "Nyia",
@@ -16,7 +22,7 @@ export const PRODUCTS: Product[] = [
     id: "1",
     title: "Fluxo Interior",
     price: 120,
-    imageUrl: "/src/img/1.png",
+    imageUrl: img1,
     description:
       "Cada camada é uma respiração, cada curva uma memória, cada cor uma emoção que se libertou.",
     category: "Abstrato",
@@ -25,7 +31,7 @@ export const PRODUCTS: Product[] = [
     id: "2",
     title: "Essência Rosa",
     price: 150,
-    imageUrl: "/src/img/2.png",
+    imageUrl: img2,
     description:
       "Uma explosão de tons quentes que emana luz e suavidade para qualquer ambiente.",
     category: "Energético",
@@ -34,7 +40,7 @@ export const PRODUCTS: Product[] = [
     id: "3",
     title: "Vórtice de Cores",
     price: 95,
-    imageUrl: "/src/img/3.png",
+    imageUrl: img3,
     description:
       "Ondas vibrantes que celebram a alegria e a complexidade da vida digital.",
     category: "Abstrato",
@@ -43,7 +49,7 @@ export const PRODUCTS: Product[] = [
     id: "4",
     title: "Centro Silencioso",
     price: 180,
-    imageUrl: "/src/img/4.png",
+    imageUrl: img4,
     description:
       "As formas fluem com leveza, como se dançassem num espaço onde o tempo abranda.",
     category: "Geométrico",
@@ -52,7 +58,7 @@ export const PRODUCTS: Product[] = [
     id: "5",
     title: "Explosão Interior",
     price: 110,
-    imageUrl: "/src/img/5.png",
+    imageUrl: img5,
     description:
       "O vermelho vibra como força, o amarelo abre caminhos, o azul acalma.",
     category: "Energético",
@@ -61,7 +67,7 @@ export const PRODUCTS: Product[] = [
     id: "6",
     title: "Imaginação Profunda",
     price: 135,
-    imageUrl: "/src/img/6.png",
+    imageUrl: img6,
     description:
       "É como se cada forma, cada cor, cada movimento me revelasse algo que estava escondido dentro de mim.",
     category: "Abstrato",
